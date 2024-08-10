@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+img {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-delay: 2s;
+}
+
+@keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+</style>
+</head>
+<body>
+
+<h1>CSS Animation</h1>
+
+<p>The animation-delay property specifies a delay for the start of an animation. The following example has a 2 seconds delay before starting the animation:</p>
+
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHQAAABNCAMAAABAMbBwAAAAhFBMVEUBQRz///8AQBkaQCIAMwAANQAALAAANwAAOw4ALwAAPRMAKAAAPRUAJgDp7Ors7+0AIQD09vXIz8p7in4/WURfcmJmd2g3Vz4AIwBHXky7w73T2dVLY094i3ymr6fCxsEkTS/e4t+appxvgnIJPBiGlIoqSDBOalV0gnaOnJEvUDaxubLkihWWAAACo0lEQVRoge2Y65KjIBCFhQBe4mjU0WTVMTGXnUny/u+3XtDNlsBIm2xt1XJ+Tc2JfgJNd4OFVFph6yUyUAM1UAM1UAP9d6Ee5LuWQW2aHgDUJVDnLakTqs9cAMUsC1BKAEw41PFzBGSCofQ9ROjIBB/zOihJG7sQML3TjEWGQWnW2ltv6uxQ2Y3VUbFBUOdH694FA7XegmjlYbrJrvZzoZhGrXsWuaxAITlfQmUQQqDruDX3rshzm5gO2hhTxTUAaiedmQnitJnXe2cGVLXF9aHYCVsvms4uJjQp+iczZQzrQ+1L5xXrCXNbRcOTx4m7DLrp3zxdNHw4VcWAvQhXHAp1st5LpkuKHbpm3EaZIpK0oSznLxXnO/8Qoejn5zGOUkHqAEJ5GCFUit+J/RAl1LPZRlFodaFeiZRQiwT1rsdLmdpQ54N7nxIoq2WfA4eSintfkhrmSBZ7CdTdc0+a0GcUVG1ozL1cVGNmCgwNVLv/VVD07v896LCm6AhpPmHQMXpRoMzpT4WO+xSh05zG7ynQMSMtGaoudMy9ja7QANaFjlWmlagHfQl0qKfdBDPYAVYbOnQOneK18ogl28n6UN4jcSqRpwjvJqvj+tDHUGr6M1+2ceitkDXc+tCh7+WKUiYarM++0IesEAGgvMMfdT9M4slntxjFGwlzyVnmEbuz/eG32LM322ZfRfLTDATKT22PKq7bs8tc12VkVR7r9l/v8iwJgvLz6Z+K6jjP86Lms5AqihAM2p/EVVL12svuHKQKt08+QHF1tysS7aWbdyHUwiwNhE8F6XcpGQ7tb8wmz9TJ+tvivgTaJCdSVo/DDarSfdmVzm95dEfSa3XP79U1bf6eVWGXQq22AtikSQvEduZW1ydA9WWgBmqgBmqg/wf0F3WRJbo/jdxzAAAAAElFTkSuQmCC" alt="">
+
+</body>
+</html>
+
+
